@@ -6,7 +6,11 @@ export const metadata = {
   description: "Your Outsourcing and Execution Specialists.",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   // RedLab Specific Data Structure
   const navItems = [
     {
@@ -24,7 +28,7 @@ export default function RootLayout({ children }) {
       textColor: "#fff",
       links: [
         { label: "Retail & Venues", href: "/industries/retail-venues", ariaLabel: "Retail & Venues" },
-        { label: "Corporate & Services", href: "/industries/corporate-services", ariaLabel: "Corporate & Servicess" },
+        { label: "Corporate & Services", href: "/industries/corporate-services", ariaLabel: "Corporate & Services" },
         { label: "Health & Education", href: "/industries/health-education", ariaLabel: "Health & Education" }
       ]
     },
