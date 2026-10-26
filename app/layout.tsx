@@ -49,7 +49,7 @@ export default function RootLayout({
         
         {/* Render the new animated CardNav */}
         <CardNav
-          logo="/logo.png" // Uses the logo you saved to the public folder
+          logo="/Logo.png" // Uses the logo you saved to the public folder
           logoAlt="RedLab Solutions Logo"
           items={navItems}
           baseColor="#ffffff" // White pill background
