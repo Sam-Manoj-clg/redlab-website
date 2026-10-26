@@ -11,7 +11,7 @@ export default function Navbar() {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/" className="transition-opacity hover:opacity-80">
               <Image 
-                src="/logo.png" 
+                src="/Logo.png" 
                 alt="RedLab Solutions" 
                 width={180} 
                 height={60} 
