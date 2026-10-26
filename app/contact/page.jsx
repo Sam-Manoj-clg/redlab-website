@@ -103,7 +103,7 @@ export default function ContactPage() {
             <div className="grid grid-cols-2 gap-4">
               {/* LinkedIn Button */}
               <a 
-                href="#" 
+                href="#https://in.linkedin.com/company/redlab-solutions" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-[#0077b5] hover:bg-[#005e93] text-white p-4 rounded-2xl flex flex-col items-center justify-center gap-2 transition-all hover:-translate-y-1 shadow-lg"
@@ -114,7 +114,7 @@ export default function ContactPage() {
 
               {/* JustDial Button */}
               <a 
-                href="#" 
+                href="#https://jsdl.in/DT-43UMIQM6YAE" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="bg-[#ff6600] hover:bg-[#cc5200] text-white p-4 rounded-2xl flex flex-col items-center justify-center gap-2 transition-all hover:-translate-y-1 shadow-lg"
