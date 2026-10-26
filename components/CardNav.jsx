@@ -220,7 +220,7 @@ const CardNav = ({
             aria-label="Go to homepage"
             onClick={handleNavigation}
           >
-            <img src={Logo} alt={logoAlt} className="logo" />
+            <img src={logo} alt={logoAlt} className="logo" />
           </Link>
 
           {/* Desktop Contact Us button */}
