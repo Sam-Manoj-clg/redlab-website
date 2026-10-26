@@ -1,0 +1,39 @@
+.card-swap-container {
+  /* Removed absolute positioning so it stays perfectly centered in the grid */
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+  /* Deepened from 900px to 1200px to make the diagonal stack look more natural */
+  perspective: 1200px; 
+  margin: 0 auto;
+  overflow: visible;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 24px; /* Matches the sleek rounded-[24px] from your Tailwind classes */
+  transform-style: preserve-3d;
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  
+  /* Adds a heavy, directional shadow so the dark cards stand out from the ones behind them */
+  box-shadow: -15px 25px 45px rgba(0, 0, 0, 0.35); 
+}
+
+/* --- Mobile Responsiveness --- */
+/* Simply scales the entire 3D stack down so it fits perfectly on phones */
+@media (max-width: 768px) {
+  .card-swap-container {
+    transform: scale(0.85);
+  }
+}
+
+@media (max-width: 480px) {
+  .card-swap-container {
+    transform: scale(0.7);
+  }
+}
